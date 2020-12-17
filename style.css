@@ -1,0 +1,305 @@
+*
+{
+	
+}
+body
+{
+	
+	background-color: #fff8f2;
+	margin: 0;
+
+}
+
+h1,h2,h3,h5
+{
+	font-family: Monteserrat, sans-serif;
+}
+h1
+{
+	font-size: 32px;
+	text-transform: capitalize;
+}
+h6
+{
+	margin-top: -20px;
+}
+
+p
+{
+	color: #3b3b3b;
+}
+
+
+
+
+
+#schlogo 
+{
+	margin-top: 15px;
+	width: 60px ;
+	height: 60px;
+	
+
+}
+#enroll
+{
+	border-style:solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: red;
+	color: #fff;
+	background-color: red;
+	padding:8px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+#enroll:hover
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fff;
+	background-color: transparent;
+}
+.logo
+{
+	
+	display: inline-flex;
+	margin-left: 42%;
+	margin-bottom: -10px;
+
+}
+
+
+.logo img 
+{
+	
+	width: 120px;
+	height: 120px;
+	
+}
+
+.name h2
+{
+	margin-top: 20px;
+	color: #52627B;
+}
+.name h4
+{
+	margin-top: -25px;
+}
+.name
+{
+	background-color:;
+	
+}
+
+
+
+/** N A V   S E C T I O N ! ! ! 1 **/
+
+nav
+{
+	
+	background-color:#52627B ;
+	text-align: center;
+	height: 50px;
+	padding-bottom: 5px;
+	position: sticky;
+	position:-webkit-sticky;
+	top: 0;
+
+}
+nav li
+{
+	display: inline-block;
+	list-style: none;
+	margin-left: 2%;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	
+	
+}
+
+nav ul
+{
+	margin-right: 10%;
+	
+}
+
+nav li a
+{
+	color: white;
+	text-decoration: none;
+	font-family: Monteserrat, sans-serif;
+	font-size: 20px;
+	
+	padding:15px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+nav li a:hover
+{
+	background-color: #7788a3;
+	
+	transition: 0.4s;
+}
+
+
+
+
+
+/**for contents**/
+
+#separated
+{
+	height: 100vh;
+	font-family: 'Vollkorn', serif;
+	
+	margin-top: 6%;
+	background-color: #f5ebeb;
+	
+}
+#poto
+{
+	text-align: center;
+	margin-top: 10px;
+	height: 50%;
+}
+#separated img
+{
+	width: 95%;
+	height: 100%;
+	text-align: center;
+	border-radius: 15px;
+}
+#separated h3
+{
+	font-size: 32px;
+	color:#52627B;
+	font-family: Monteserrat, sans-serif;
+
+}
+.contents header
+{
+
+	text-align: center;
+}
+.contents
+{
+	display: grid;
+	grid-template-columns: 45% 45%;
+	margin-top: 30px;
+	margin-left: 8%;
+	
+}
+
+
+.contents hr
+{
+	width: 90%;
+	height: 1px;
+	background-color:red;
+}
+.news
+{
+	
+}
+
+.news img
+{
+	width:100%;
+	height: 500px;
+}
+.announce 
+{
+	
+}
+.announce img
+{
+	width: 100%;
+	height: 500px;
+}
+
+.left-content
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.right-content
+{
+	margin-left: 8%;
+}
+
+#teksto
+{
+	padding: 20px;
+}
+
+
+
+
+footer
+{	
+	margin-top: 30px;
+	height: 250px;
+	background-color: #c40d00;
+	bottom: 0;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	font-family: Monteserrat, sans-serif;
+
+}
+
+footer a 
+{
+	
+	color: #fff;
+}
+.footer-contents
+{
+	display: grid;
+	grid-template-columns: 40% 40%;
+	margin-left: 17%;
+	height: 200px;
+}
+
+#footer-info
+{
+	
+	border-right: solid;
+}
+
+#footer-enroll
+{
+	background-color: #52627B;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #52627B;
+	border-radius: 15px;
+
+	padding: 17px;
+	text-decoration: none;
+}
+
+#footer-enroll:hover
+{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff;
+	transition: 1s;
+}
+
+#footer-enroll-now
+{
+	margin-top: 50px;
+}
+.soc-med-sites img
+{
+	height: 50px;
+	width: 50px;
+}
